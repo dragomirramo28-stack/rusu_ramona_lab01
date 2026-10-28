@@ -34,7 +34,7 @@ def citeste_matrice():
 
 def citeste_sir_din_fisier():
     print("\n3. Citire șir de numere din fișier")
-    nume_fisier = input("Introduceți numele fișierului (ex: date.txt): ")
+    nume_fisier = input("Introduceți numele fișierului: ")
     
     # Verificăm dacă fișierul există pe calculator
     if not os.path.exists(nume_fisier):
